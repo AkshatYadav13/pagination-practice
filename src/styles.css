@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pagination {
+  margin-inline: 10px;
+}
+
+.todo-wrap {
+  margin-block: 50px;
+}
+
+.pagination p {
+  text-align: start;
+}
+
+.pagination-controls {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  min-height: 140px;
+}
+
+.pagination-controls button {
+  font-size: 17px;
+  padding: 6px 20px;
+  border: 2px solid blue;
+  color: blue;
+  cursor: pointer;
+  &:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+}
+
+.page-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-block: 15px;
+}
+
+.pagination-controls span {
+  padding: 10px 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.active {
+  background-color: slateblue;
+  color: white;
+}
